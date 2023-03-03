@@ -75,7 +75,7 @@ const Grid = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       updateAnt();
-    }, 100);
+    }, 1000);
     return () => clearInterval(interval);
   }, [antDirection]);
 
